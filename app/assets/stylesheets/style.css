@@ -1,0 +1,73 @@
+/* Estilos para .col-md-4 */
+.col-md-4 {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para .crypto-table */
+.crypto-table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  padding: 10px;
+}
+
+.crypto-table th {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.crypto-table tbody tr {
+  background: #fff;
+  box-shadow: 0 1px 15px 1px rgba(62, 57, 107, 0.07);
+  height: 50px;
+}
+
+.crypto-table tbody td {
+  vertical-align: middle;
+  border-radius: 0;
+}
+
+.crypto-table tbody td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.crypto-table tbody td:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.crypto-table tbody td img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+/* Estilos para .card.crypto-gradient-card */
+.card.crypto-gradient-card {
+  color: #fff;
+  border: 0;
+}
+
+/* Estilos para gradient-1 */
+.gradient-1 {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background: #eb3349; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f45c43,
+    #eb3349
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f45c43,
+    #eb3349
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Estilos para gradient-2 */
+.gradient-2 {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0
+
